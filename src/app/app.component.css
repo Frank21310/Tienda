@@ -18,7 +18,7 @@ body {
   width: 100vw;
   display: block;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('./src/assets/img/fondo1.jpeg');
+  color: red;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -49,7 +49,7 @@ body {
   padding: 25px 0;
   text-transform: capitalize;
   letter-spacing: 1px;
-  word-spacing: 1.5px;
+  word-spacing: 2px;
 }
 
 section {
@@ -83,7 +83,7 @@ section:nth-child(odd) {
   padding: 24px 4px;
   background: radial-gradient(circle, rgb(65, 64, 64) 25%, rgb(11, 12, 14) 100%);
   color: #fff;
-  box-shadow: 9px 9px 16px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 9px 9px 16px  rgba(0, 0, 0, 0.25);
 }
 .box:hover {
   background: radial-gradient(circle, rgb(78, 77, 77) 10%, rgb(97, 89, 93) 40%);
@@ -118,7 +118,7 @@ section:nth-child(odd) {
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 1px;
-  word-spacing: 1.5px;
+  word-spacing: 2px;
   margin-bottom: 5px;
   margin-top: 32px;
 }
@@ -126,7 +126,7 @@ section:nth-child(odd) {
 .sectionSubSubHead{
   font-size: 22px;
   letter-spacing: 1px;
-  word-spacing: 1.5px;
+  word-spacing: 2px;
   margin-bottom: 32px;
   margin-top: 32px;
 }
@@ -146,17 +146,6 @@ section:nth-child(odd) {
   width: 100vw;
 }
 
-#parallex-set-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./src/assets/img/fondo2.jpg');
-}
-
-#parallex-set-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./src/assets/img/fondo3.jpg');
-}
-
-#parallex-set-3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./src/assets/img/fondo4.jpg');
-}
 
 .item-box {
   position: relative;
@@ -174,7 +163,7 @@ section:nth-child(odd) {
   width: 100%;
   height: 100%;
   z-index: 15;
-  background-image: linear-gradient((0, 0, 0, O.5), rgba(0, 0, 0, 0.7));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
 }
 
 .item-box .item-box-img>img {
@@ -188,9 +177,8 @@ section:nth-child(odd) {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 14px;
   margin-left: 21px;
-  padding-left: 0;
+  padding: 14px 14px 14px 0;
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -201,8 +189,7 @@ section:nth-child(odd) {
   left: 0;
   top: 4px;
   line-height: 1;
-  margin: 52px 8px;
-  margin-left: 21px;
+  margin: 52px 8px 52px 21px;
   width: 80%;
   font-style: italic;
   font-size: 13px;
@@ -213,8 +200,7 @@ section:nth-child(odd) {
   position: absolute;
   left: 0;
   top: 8px;
-  margin: 105px 8px;
-  margin-left: 22px;
+  margin: 105px 8px 105px 22px;
   font-size: 14px;
   padding: 5px 18px;
   color: #fff;
@@ -234,7 +220,7 @@ section:nth-child(odd) {
 .card {
   margin: 15px 0;
   cursor: pointer;
-  box-shadow: 9px 9px 16px 0px rgba(7, 4, 20, 0.50);
+  box-shadow: 9px 9px 16px  rgba(7, 4, 20, 0.50);
 }
 
 footer {
@@ -243,7 +229,7 @@ footer {
   width: 100%;
   height: 100px;
   line-height: 100px;
-  background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,121,9,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: transparent;
   z-index: 100;
   text-align: right;
 }

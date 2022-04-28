@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Tienda';
   type = 'Text';
+  wellcome = ``;
 
 
 
